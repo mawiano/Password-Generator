@@ -45,14 +45,14 @@ function generatePassword() {
       superArray = superArray + special;
       console.log(superArray, "after");
     }
-    var password= ""
-    for (let i = 0; i < passwordLength-1; i++) {
-      var randomnumber =  Math.floor(Math.random() * superArray.length-1);
-     
-      password= password + superArray[randomnumber]
+    var password = "";
+    for (let i = 0; i < passwordLength - 1; i++) {
+      //Generate random numbers in the range of superarrays length
+      var randomnumber = Math.floor(Math.random() * superArray.length - 1);
 
+      password = password + superArray[randomnumber];
     }
-    console.log(password)
+    console.log(password);
   }
   return password;
 }
