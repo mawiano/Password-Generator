@@ -45,6 +45,8 @@ function generatePassword() {
       superArray = superArray + special;
       console.log(superArray, "after");
     }
+    var password= ""
+    console.log(superArray[superArray.length-1])
   }
 }
 
