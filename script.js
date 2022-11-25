@@ -1,20 +1,23 @@
 
-var upperCaseArray = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-var lowerCase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-var numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-var special = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '-', '+', '=']
+var upperCaseArray = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var numbers = "0123456789";
+var special = "!@#$%^&*()_+-=";
 
-var superArray = []
+
 
 function generatePassword() {
+  var superArray = ""
   console.log("generatePassword")
  var passwordLength = prompt("How long do you want your Password to be?")
  console.log(passwordLength)
- var upperCaseOption = confirm("Do you want uppercase characters?")
+ var upperCaseOption = confirm("Do you want uppercase characters in your password?")
 console.log(upperCaseOption)
-var lowercase = confirm("Do you want lowercase characters?")
+var lowercase = confirm("Do you want lowercase characters in your password?")
 console.log(lowercase)
-
+var numbersOption = confirm("Would like numbers in your password?")
+console.log(numbersOption)
+var specialOption = confirm("Would you like special characters in your password?")
 
 if (upperCaseOption) {
   console.log(superArray, "before")
