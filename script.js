@@ -46,8 +46,15 @@ function generatePassword() {
       console.log(superArray, "after");
     }
     var password= ""
-    console.log(superArray[superArray.length-1])
+    for (let i = 0; i < passwordLength-1; i++) {
+      var randomnumber =  Math.floor(Math.random() * superArray.length-1);
+     
+      password= password + superArray[randomnumber]
+
+    }
+    console.log(password)
   }
+  return password;
 }
 
 // Assignment Code
