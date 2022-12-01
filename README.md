@@ -6,4 +6,4 @@ Created the Java Script for a random password generator. The user will first hav
 ![passwordscreenshot2](https://user-images.githubusercontent.com/117341197/205116220-393de354-3d8f-4f93-ad74-a6db5dfb29de.PNG)
 ![passwordscreenshot3](https://user-images.githubusercontent.com/117341197/205116235-6163b42d-8c1b-4b1d-abaa-d7a0a2fed64f.PNG)
 ## Link to website 
-https://github.com/mawiano/Password-Generator.git
+https://mawiano.github.io/Password-Generator/
